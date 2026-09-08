@@ -21,6 +21,6 @@ jobs:
       - name: Install Linter              # this step will install linting tool
         run: pip install ruff
           # Linter tool is installed, now check code
-      - name: Check the files for linting   # this step will run Linter tool to check files for syntax, format, indentation 
+      - name: Check the files for linting   # this step will run Linter tool to check for syntax, format, indentation in python files
         run: ruff check .
         
